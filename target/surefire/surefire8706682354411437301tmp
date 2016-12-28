@@ -1,0 +1,8 @@
+#surefire
+#Tue Dec 27 21:46:01 EET 2016
+maven.ext.class.path=/home/fatih/netbeans-8.2/java/maven-nblib/netbeans-eventspy.jar
+jpda.listen=maven
+user.dir=/home/fatih/NetBeansProjects/Veresiye
+jpda.address=46659
+localRepository=/home/fatih/.m2/repository
+basedir=/home/fatih/NetBeansProjects/Veresiye

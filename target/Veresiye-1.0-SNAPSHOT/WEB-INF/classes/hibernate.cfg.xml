@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <!-- <property name="hbm2ddl.auto">create</property>  -->
+    <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="connection.url">jdbc:mysql://localhost:3306/veresiye</property>    
+    <property name="connection.username">veresiye</property>
+    <property name="connection.password">deneme</property>
+    <property name="connection.driver_class">com.mysql.jdbc.Driver</property>    
+    <mapping class="com.fatih.veresiye.entity.Customer"/>
+    <!--  <mapping class="com.fatih.veresiye.entity.Customer_ext"/> -->
+    <mapping class="com.fatih.veresiye.entity.Taction"/>
+  </session-factory>
+</hibernate-configuration>
